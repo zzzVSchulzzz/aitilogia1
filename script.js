@@ -44,7 +44,7 @@ let prices = document.getElementsByClassName("products-item-price");
 document.getElementById("change-currency").onclick = function (e) {
     let currentCurrency = e.target.innerText;
 
-    let newCurrency = $;
+    let newCurrency = "$";
     let coefficient = 1;
 
     if (currentCurrency === "$") {
