@@ -48,11 +48,11 @@ document.getElementById("change-currency").onclick = function (e) {
     let coefficient = 1;
 
     if (currentCurrency === "$") {
-        newCurrency === "₽";
-        coefficient === "80";
+        newCurrency = "₽";
+        coefficient = "80";
     } else if (currentCurrency === "₽") {
         newCurrency = "BYN";
-        coefficient === 3;
+        coefficient = 3;
     } else if (currentCurrency === 'BYN') {
         newCurrency = '€';
         coefficient = 0.9;
