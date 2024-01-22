@@ -17,7 +17,7 @@ for (let i = 0; i < buttons.length; i++) {
 }
 
 let order = document.getElementById("order");
-let usernamename = document.getElementById("username");
+let username = document.getElementById("username");
 let phone = document.getElementById("phone");
 document.getElementById("order-action").onclick = function () {
 
